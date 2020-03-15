@@ -18,8 +18,8 @@ $ sudo unzip ./terraform_0.11.13_linux_amd64.zip -d /usr/local/bin/
 $ terraform -v
 ``` 
 
-Execute below mention command to create main.tf.In here you can change namespace,stage,name,cluster_name,
-parent_zone_name,zone_name and region variables before execute terraform script.
+Execute below mention command to create "main.tf".In here you can change "namespace" , "stage" , "name" , "cluster_name" ,
+"parent_zone_name" , "zone_name" and "region" variables before execute terraform script.
 ``` 
 cat >> main.tf << EOF
 module "kops" {
