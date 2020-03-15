@@ -1,2 +1,2 @@
 # Terraform Script For Create Kubernetes Cluster 
-terraform script for create kubernetes in aws cloud
+Create kubernetes cluster in aws ec2 instance 
