@@ -3,17 +3,17 @@ Create kubernetes cluster in aws ec2 instance
 
 
 ``` 
-sudo apt-get update
-sudo apt install awscli
-aws configure
+$ sudo apt-get update
+$ sudo apt install awscli
+$ aws configure
 ``` 
 
 ``` 
-$sudo apt-get update
-$wget https://releases.hashicorp.com/terraform/0.12.21/terraform_0.12.21_linux_amd64.zip
-$sudo apt-get install unzip
-$sudo unzip ./terraform_0.11.13_linux_amd64.zip -d /usr/local/bin/
-$terraform -v
+$ sudo apt-get update
+$ wget https://releases.hashicorp.com/terraform/0.12.21/terraform_0.12.21_linux_amd64.zip
+$ sudo apt-get install unzip
+$ sudo unzip ./terraform_0.11.13_linux_amd64.zip -d /usr/local/bin/
+$ terraform -v
 ``` 
 
 Create main.tf past below inside that file
@@ -32,8 +32,8 @@ module "kops" {
 ```
 After create above file type this command execute terraform script
 ``` 
-$terraform init
-$terraform plan
-$terraform apply
+$ terraform init
+$ terraform plan
+$ terraform apply
 
 ```
