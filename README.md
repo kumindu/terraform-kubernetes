@@ -18,7 +18,7 @@ $ sudo unzip ./terraform_0.11.13_linux_amd64.zip -d /usr/local/bin/
 $ terraform -v
 ``` 
 
-Create main.tf past below code inside that file
+Execute below mention command to create main.tf
 ``` 
 module "kops" {
   source           = "git::https://github.com/kumindu/terraform-kubernetes.git?ref=master"
@@ -32,10 +32,18 @@ module "kops" {
 }
 
 ```
-After create above file type this command execute terraform script
+Type below mention command execute terraform script
 ``` 
 $ terraform init
 $ terraform plan
 $ terraform apply
 
 ```
+
+If you need destroy you kubernetes cluster type below mention command
+
+``` 
+$ terraform destroy
+
+``
+
