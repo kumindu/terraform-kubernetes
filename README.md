@@ -2,12 +2,14 @@
 Create kubernetes cluster in aws ec2 instance 
 
 
+Follow this steps to install aws cli
 ``` 
 $ sudo apt-get update
 $ sudo apt install awscli
 $ aws configure
 ``` 
 
+Follow this steps to install terraform 
 ``` 
 $ sudo apt-get update
 $ wget https://releases.hashicorp.com/terraform/0.12.21/terraform_0.12.21_linux_amd64.zip
