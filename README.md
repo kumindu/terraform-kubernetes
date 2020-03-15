@@ -26,7 +26,7 @@ module "kops" {
   stage            = "prod"
   name             = "openwitclub-kops"
   cluster_name     = "us-east-1"
-  parent_zone_name = "domain.com"
+  parent_zone_name = "openwit.club"
   zone_name        = "$${name}.$${parent_zone_name}"
   region           = "us-east-1"
 }
