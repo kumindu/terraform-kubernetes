@@ -9,7 +9,7 @@ $ sudo apt install awscli
 $ aws configure
 ``` 
 
-After install aws cli you need install terrform to your current instance.Follow this steps to install terraform 
+After install aws cli you need install terraform to your current instance.Follow this steps to install terraform 
 ``` 
 $ sudo apt-get update
 $ wget https://releases.hashicorp.com/terraform/0.12.21/terraform_0.12.21_linux_amd64.zip
