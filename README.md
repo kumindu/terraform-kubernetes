@@ -45,5 +45,5 @@ If you need destroy you kubernetes cluster type below mention command
 ``` 
 $ terraform destroy
 
-``
+```
 
