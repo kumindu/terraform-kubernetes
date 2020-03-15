@@ -3,7 +3,7 @@ Create kubernetes cluster in aws ec2 instance
 
 ``` 
 module "kops" {
-  source           = "git::https://github.com/cloudposse/terraform-aws-kops-state-backend.git?ref=master"
+  source           = "git::https://github.com/kumindu/terraform-kubernetes.git?ref=master"
   namespace        = "eg"
   stage            = "prod"
   name             = "kops-state"
