@@ -20,6 +20,7 @@ $ terraform -v
 
 Execute below mention command to create main.tf
 ``` 
+cat >> main.tf << EOF
 module "kops" {
   source           = "git::https://github.com/kumindu/terraform-kubernetes.git?ref=master"
   namespace        = "owc"
@@ -30,7 +31,7 @@ module "kops" {
   zone_name        = "$${name}.$${parent_zone_name}"
   region           = "us-east-1"
 }
-
+EOF
 ```
 Type below mention command execute terraform script
 ``` 
