@@ -1,15 +1,15 @@
 # Terraform Script For Create Kubernetes Cluster
-Create kubernetes cluster in aws ec2 instance 
+How to create kubernetes cluster in aws ec2 instance using terraform script.
 
 
-Follow this steps to install aws cli
+First thing is you need install aws cli to you current instance.Follow this steps to install aws cli
 ``` 
 $ sudo apt-get update
 $ sudo apt install awscli
 $ aws configure
 ``` 
 
-Follow this steps to install terraform 
+After install aws cli you need install terrform to you current instance.Follow this steps to install terraform 
 ``` 
 $ sudo apt-get update
 $ wget https://releases.hashicorp.com/terraform/0.12.21/terraform_0.12.21_linux_amd64.zip
