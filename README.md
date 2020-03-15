@@ -19,7 +19,7 @@ $ terraform -v
 ``` 
 
 Execute below mention command to create main.tf.In here you can change namespace,stage,name,cluster_name,
-parent_zone_name,zone_name and region variables.
+parent_zone_name,zone_name and region variables before execute terraform script.
 ``` 
 cat >> main.tf << EOF
 module "kops" {
