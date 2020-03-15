@@ -18,7 +18,7 @@ $ sudo unzip ./terraform_0.11.13_linux_amd64.zip -d /usr/local/bin/
 $ terraform -v
 ``` 
 
-Create main.tf past below inside that file
+Create main.tf past below code inside that file
 ``` 
 module "kops" {
   source           = "git::https://github.com/kumindu/terraform-kubernetes.git?ref=master"
