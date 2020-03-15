@@ -4,9 +4,9 @@ Create kubernetes cluster in aws ec2 instance
 ``` 
 module "kops" {
   source           = "git::https://github.com/kumindu/terraform-kubernetes.git?ref=master"
-  namespace        = "eg"
+  namespace        = "kumindu"
   stage            = "prod"
-  name             = "kops-state"
+  name             = "kumindu-test"
   cluster_name     = "us-east-1"
   parent_zone_name = "domain.com"
   zone_name        = "$${name}.$${parent_zone_name}"
